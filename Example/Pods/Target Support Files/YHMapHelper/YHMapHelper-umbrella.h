@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "YHAbstractJumpAppItem.h"
+#import "YHMapAppHelper.h"
+#import "YHMapAppItems.h"
+#import "YHLocationConverter.h"
+#import "YHLocationHelper.h"
 
 FOUNDATION_EXPORT double YHMapHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHMapHelperVersionString[];

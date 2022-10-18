@@ -7,54 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1809884617CEBDCEE25F95CE07F1B879 /* YHAbstractJumpAppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42050EB0FF66AC013BEDDBBDA4CA0606 /* YHAbstractJumpAppItem.m */; };
+		1E8F3215754C3191DD20BAD3F034825F /* YHMapHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D4206B64B212F6ECB58FB1EACB7BF9 /* YHMapHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2383AACC775E74CEB9B0032033D78F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		509A4F1D9281F83EC81C9C5BE618F63E /* YHMapHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 669D522E77FC5196B893AA55EF97E2EF /* YHMapHelper-dummy.m */; };
+		2F291D5D018B68635A85B1EBDA1BF555 /* YHMapAppItems.h in Headers */ = {isa = PBXBuildFile; fileRef = 4453629EBD3D1997BBCC92D08BA035AC /* YHMapAppItems.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D8B8D6D4A438182DB79C775A30902C8 /* YHMapAppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6682CB52A4490A30EAAEA7C34F7EF1A /* YHMapAppHelper.m */; };
+		40946C2AD041442D0349249F98EC4B8E /* YHLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 379F223EC488AB4DF29398D615D19736 /* YHLocationHelper.m */; };
+		48B17982A2FF8A2F2313C76AF2B7A321 /* YHMapHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1D0653325418D6460BC67B3294E17 /* YHMapHelper-dummy.m */; };
+		569E03A9580A4D1A9A7516C02D657831 /* YHMapAppHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE2EC3D967F0D835CAEC89C15B6836B /* YHMapAppHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584A8615D92A13916AE4FA4617386185 /* YHLocationConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ACF31C076244A9DA4F54063B7476E3 /* YHLocationConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B0C6E16CD6A6061CEF8F77A6EC8805C /* Pods-YHMapHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 240A2AA918F1371E0AE9B5D5F2F7112D /* Pods-YHMapHelper_Tests-dummy.m */; };
-		6ECE1F31410B9E6C65DD691F94B905FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6CBE7DDD6A83C77CD5CD2AF51DFCF1EA /* YHAbstractJumpAppItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E0AAC4F7D046ED1A0A6CB26739CA52 /* YHAbstractJumpAppItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A466CE29D2A4E0322E6BCD1595ED5DC /* YHLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D18A423EA548EFFC8A456D0F47C26B /* YHLocationConverter.m */; };
+		8ADBC61F3DB0CBE1DFC91936AB821E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8FB95C84F6C07FF59396879A37E208B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A7446DB308AEFCAC32D6E2A98A827793 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6489DEBE138481A51F9DFA8B8BED5FB1 /* ReplaceMe.m */; };
+		AAA07F3BE79425757B158433DB74B255 /* YHLocationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BD7D235E269A81331FE3C49BC6A78A /* YHLocationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B133F3F32E5A1A3CBE43C3C9AC097C3F /* Pods-YHMapHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8772C473B69251893AC8F63B70CD6A40 /* Pods-YHMapHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC4156359F02C75F5ADE0C57B0DE01BC /* Pods-YHMapHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D54121CF69AEB0C5CAB97A381BF2F8F /* Pods-YHMapHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3C1979EBD60053BC89B88B323D238B5 /* YHMapHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53ADA3EEBDB20E12E112DA0E6414417A /* YHMapHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6CCCE7A261E60E6CDBF00DDFE94DECF /* Pods-YHMapHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F942D529A8808716522FA3107B8213 /* Pods-YHMapHelper_Example-dummy.m */; };
+		F1335A285B21F855BE375268C59D95CE /* YHMapAppItems.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49BD113E2C7EF16F989CB0F7A25661 /* YHMapAppItems.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		05671390D40A834AE04D19C918E7EAB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCA30993160A4B893B8DDFBAF8276FC8;
-			remoteInfo = YHMapHelper;
-		};
-		47E50862949D0080F1CB876E689E69A7 /* PBXContainerItemProxy */ = {
+		902DB96C4E82C06985B51BEC8822ED84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 97DF77A6A128F0AA4903D1727FBAC5FF;
 			remoteInfo = "Pods-YHMapHelper_Example";
 		};
+		D6A6225E908606E718173822E52AF970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA30993160A4B893B8DDFBAF8276FC8;
+			remoteInfo = YHMapHelper;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0454CC8B15E87B64B84F6760F4165916 /* Pods-YHMapHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHMapHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		20A258108EA3E861E746C0AD0ABF3523 /* YHMapHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHMapHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08C1D0653325418D6460BC67B3294E17 /* YHMapHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHMapHelper-dummy.m"; sourceTree = "<group>"; };
+		13AAF524FE1118AB94974451030B7F67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D422B4F20BBFD870A4D98A4FACA5416 /* YHMapHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHMapHelper.debug.xcconfig; sourceTree = "<group>"; };
 		240A2AA918F1371E0AE9B5D5F2F7112D /* Pods-YHMapHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHMapHelper_Tests-dummy.m"; sourceTree = "<group>"; };
-		3357EF917C1229A1BD57DCF6BDC339AE /* YHMapHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHMapHelper.release.xcconfig; sourceTree = "<group>"; };
+		24D4206B64B212F6ECB58FB1EACB7BF9 /* YHMapHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHMapHelper-umbrella.h"; sourceTree = "<group>"; };
+		379F223EC488AB4DF29398D615D19736 /* YHLocationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHLocationHelper.m; path = YHMapHelper/Classes/YHLocationHelper.m; sourceTree = "<group>"; };
 		41F942D529A8808716522FA3107B8213 /* Pods-YHMapHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHMapHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		42050EB0FF66AC013BEDDBBDA4CA0606 /* YHAbstractJumpAppItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHAbstractJumpAppItem.m; sourceTree = "<group>"; };
+		4453629EBD3D1997BBCC92D08BA035AC /* YHMapAppItems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHMapAppItems.h; sourceTree = "<group>"; };
 		4D437A19E52707F1E50E7096BF84C82F /* Pods-YHMapHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHMapHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4D54121CF69AEB0C5CAB97A381BF2F8F /* Pods-YHMapHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHMapHelper_Example-umbrella.h"; sourceTree = "<group>"; };
-		53ADA3EEBDB20E12E112DA0E6414417A /* YHMapHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHMapHelper-umbrella.h"; sourceTree = "<group>"; };
-		5586DA08F8A7999235C66BB3CA24B5CD /* YHMapHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHMapHelper-Info.plist"; sourceTree = "<group>"; };
-		6489DEBE138481A51F9DFA8B8BED5FB1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YHMapHelper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		669D522E77FC5196B893AA55EF97E2EF /* YHMapHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHMapHelper-dummy.m"; sourceTree = "<group>"; };
-		7176D96C4AABE19253DA71C61C59591F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5FE2EC3D967F0D835CAEC89C15B6836B /* YHMapAppHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHMapAppHelper.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75233DBC05E6B5CBDF42AA16436C10E9 /* Pods-YHMapHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHMapHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		76F1FF55B96C9234435A67B0CBCAD1C8 /* YHMapHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHMapHelper.debug.xcconfig; sourceTree = "<group>"; };
 		7972E17060DEB151CF07AB03D14961BC /* Pods-YHMapHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHMapHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E1FADA0469D7AC05AC0D045385D9F64 /* YHMapHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHMapHelper.modulemap; sourceTree = "<group>"; };
 		83405F444E9914B55762369AD70A1DCE /* Pods-YHMapHelper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YHMapHelper_Tests"; path = Pods_YHMapHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BD7D235E269A81331FE3C49BC6A78A /* YHLocationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHLocationHelper.h; path = YHMapHelper/Classes/YHLocationHelper.h; sourceTree = "<group>"; };
 		85F7CF833C7276DC58AA328BE2371161 /* YHMapHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YHMapHelper; path = YHMapHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86ACF31C076244A9DA4F54063B7476E3 /* YHLocationConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHLocationConverter.h; path = YHMapHelper/Classes/YHLocationConverter.h; sourceTree = "<group>"; };
 		8772C473B69251893AC8F63B70CD6A40 /* Pods-YHMapHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHMapHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		897B76F1406087A6560B179BE35433CB /* Pods-YHMapHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHMapHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		9373449DD50CF5133D5E35D489DC7371 /* Pods-YHMapHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHMapHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,13 +75,19 @@
 		9F4C1EA3FF05713392A801718CEF5C73 /* Pods-YHMapHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHMapHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF4C7CF7B1E13AC37E4D601D0451E0AE /* Pods-YHMapHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHMapHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0F3C41B353C44A0FBE31DC636F27ECD /* Pods-YHMapHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHMapHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8839267635F568D2F77A211F90823E2 /* YHMapHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHMapHelper.modulemap; sourceTree = "<group>"; };
-		BD3719BBEC10238C5C642A87F101A134 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B3D18A423EA548EFFC8A456D0F47C26B /* YHLocationConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHLocationConverter.m; path = YHMapHelper/Classes/YHLocationConverter.m; sourceTree = "<group>"; };
+		BE49BD113E2C7EF16F989CB0F7A25661 /* YHMapAppItems.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHMapAppItems.m; sourceTree = "<group>"; };
 		C01856220D6722F1A0A79309F96B75CF /* Pods-YHMapHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHMapHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		C02FABC623AB1EDCFD9A7E767B978597 /* Pods-YHMapHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHMapHelper_Example.modulemap"; sourceTree = "<group>"; };
-		DCF5C5D24C19E0DBC6AA3FB5104FD4C8 /* YHMapHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHMapHelper-prefix.pch"; sourceTree = "<group>"; };
+		D6682CB52A4490A30EAAEA7C34F7EF1A /* YHMapAppHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHMapAppHelper.m; sourceTree = "<group>"; };
+		DF67CEDB183E18804008DAF4ACC74062 /* YHMapHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHMapHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E1EBD8AADEB4FDC1415927593DFA9B2E /* Pods-YHMapHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHMapHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E251830DC61BB296DBBF5B213CD125D1 /* Pods-YHMapHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHMapHelper_Example-Info.plist"; sourceTree = "<group>"; };
+		E4007D3955452F4A26120E0499E3C456 /* YHMapHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHMapHelper-Info.plist"; sourceTree = "<group>"; };
+		EABAAF2F1E19544EF03D1AEF68CD16C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EEE2C908DAC2C466BD69AA910703E820 /* YHMapHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHMapHelper.release.xcconfig; sourceTree = "<group>"; };
+		F1E0AAC4F7D046ED1A0A6CB26739CA52 /* YHAbstractJumpAppItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHAbstractJumpAppItem.h; sourceTree = "<group>"; };
+		F8F853FF7E20DE14197DA6B7B31B439E /* YHMapHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHMapHelper-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +99,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22540D87D5D5516DF027EF9040DB9C17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6ECE1F31410B9E6C65DD691F94B905FA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BD27204060499D8E834744A8E6F798E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,26 +107,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7FA868E2B5F5EF7D00F8B33A85BA07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADBC61F3DB0CBE1DFC91936AB821E02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D487962CE2D4F265F157CB35CA8A024 /* Development Pods */ = {
+		014D419638116614953585FD7529F3FA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				44A8A9086FEB635A99523818B2B4A8A0 /* YHMapHelper */,
+				7E1FADA0469D7AC05AC0D045385D9F64 /* YHMapHelper.modulemap */,
+				08C1D0653325418D6460BC67B3294E17 /* YHMapHelper-dummy.m */,
+				E4007D3955452F4A26120E0499E3C456 /* YHMapHelper-Info.plist */,
+				F8F853FF7E20DE14197DA6B7B31B439E /* YHMapHelper-prefix.pch */,
+				24D4206B64B212F6ECB58FB1EACB7BF9 /* YHMapHelper-umbrella.h */,
+				1D422B4F20BBFD870A4D98A4FACA5416 /* YHMapHelper.debug.xcconfig */,
+				EEE2C908DAC2C466BD69AA910703E820 /* YHMapHelper.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHMapHelper";
 			sourceTree = "<group>";
 		};
-		44A8A9086FEB635A99523818B2B4A8A0 /* YHMapHelper */ = {
+		47C8028CE7EDA8FEB65D0A1CE52B2C28 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6489DEBE138481A51F9DFA8B8BED5FB1 /* ReplaceMe.m */,
-				923CD45B76F564EAFCD66DD6D1C666B3 /* Pod */,
-				C592622CD4FBAE20DD6E163DED5FF40C /* Support Files */,
+				F0809DB28CFAE086D2F60CC99E715C37 /* YHMapHelper */,
 			);
-			name = YHMapHelper;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5181EAA31FFD40CAFE79DBEB438C5C2A /* Pods-YHMapHelper_Example */ = {
@@ -153,6 +175,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		75A01F76715C8A6A48EEAD2E634A06E9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EABAAF2F1E19544EF03D1AEF68CD16C8 /* LICENSE */,
+				13AAF524FE1118AB94974451030B7F67 /* README.md */,
+				DF67CEDB183E18804008DAF4ACC74062 /* YHMapHelper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		8519D8F2C3CAC5A5D5C12CD19B8996CF /* Pods-YHMapHelper_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,36 +211,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		923CD45B76F564EAFCD66DD6D1C666B3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BD3719BBEC10238C5C642A87F101A134 /* LICENSE */,
-				7176D96C4AABE19253DA71C61C59591F /* README.md */,
-				20A258108EA3E861E746C0AD0ABF3523 /* YHMapHelper.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C592622CD4FBAE20DD6E163DED5FF40C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8839267635F568D2F77A211F90823E2 /* YHMapHelper.modulemap */,
-				669D522E77FC5196B893AA55EF97E2EF /* YHMapHelper-dummy.m */,
-				5586DA08F8A7999235C66BB3CA24B5CD /* YHMapHelper-Info.plist */,
-				DCF5C5D24C19E0DBC6AA3FB5104FD4C8 /* YHMapHelper-prefix.pch */,
-				53ADA3EEBDB20E12E112DA0E6414417A /* YHMapHelper-umbrella.h */,
-				76F1FF55B96C9234435A67B0CBCAD1C8 /* YHMapHelper.debug.xcconfig */,
-				3357EF917C1229A1BD57DCF6BDC339AE /* YHMapHelper.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YHMapHelper";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2D487962CE2D4F265F157CB35CA8A024 /* Development Pods */,
+				47C8028CE7EDA8FEB65D0A1CE52B2C28 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				89F7D966856F09E4541CC5DC4A439A6C /* Products */,
 				6B2E318B78FC627A911CF85487117C0C /* Targets Support Files */,
@@ -223,17 +230,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E89D8B94B7098D8A9F696CBDF9DBCA2B /* MapApp */ = {
+			isa = PBXGroup;
+			children = (
+				F1E0AAC4F7D046ED1A0A6CB26739CA52 /* YHAbstractJumpAppItem.h */,
+				42050EB0FF66AC013BEDDBBDA4CA0606 /* YHAbstractJumpAppItem.m */,
+				5FE2EC3D967F0D835CAEC89C15B6836B /* YHMapAppHelper.h */,
+				D6682CB52A4490A30EAAEA7C34F7EF1A /* YHMapAppHelper.m */,
+				4453629EBD3D1997BBCC92D08BA035AC /* YHMapAppItems.h */,
+				BE49BD113E2C7EF16F989CB0F7A25661 /* YHMapAppItems.m */,
+			);
+			name = MapApp;
+			path = YHMapHelper/Classes/MapApp;
+			sourceTree = "<group>";
+		};
+		F0809DB28CFAE086D2F60CC99E715C37 /* YHMapHelper */ = {
+			isa = PBXGroup;
+			children = (
+				86ACF31C076244A9DA4F54063B7476E3 /* YHLocationConverter.h */,
+				B3D18A423EA548EFFC8A456D0F47C26B /* YHLocationConverter.m */,
+				83BD7D235E269A81331FE3C49BC6A78A /* YHLocationHelper.h */,
+				379F223EC488AB4DF29398D615D19736 /* YHLocationHelper.m */,
+				E89D8B94B7098D8A9F696CBDF9DBCA2B /* MapApp */,
+				75A01F76715C8A6A48EEAD2E634A06E9 /* Pod */,
+				014D419638116614953585FD7529F3FA /* Support Files */,
+			);
+			name = YHMapHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		98F7B46D969A9843DB3F67F74F88DDEE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3C1979EBD60053BC89B88B323D238B5 /* YHMapHelper-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9F399C5E7BB01A2D6F729D10B1E5B3C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +275,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC4156359F02C75F5ADE0C57B0DE01BC /* Pods-YHMapHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D337EB19041BDC44C7BBC48C4F314B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBE7DDD6A83C77CD5CD2AF51DFCF1EA /* YHAbstractJumpAppItem.h in Headers */,
+				584A8615D92A13916AE4FA4617386185 /* YHLocationConverter.h in Headers */,
+				AAA07F3BE79425757B158433DB74B255 /* YHLocationHelper.h in Headers */,
+				569E03A9580A4D1A9A7516C02D657831 /* YHMapAppHelper.h in Headers */,
+				2F291D5D018B68635A85B1EBDA1BF555 /* YHMapAppItems.h in Headers */,
+				1E8F3215754C3191DD20BAD3F034825F /* YHMapHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				597E6622B2FE01A99752185EA6475F9D /* PBXTargetDependency */,
+				C628E1F46D37CE974DC71E67D2FC27CA /* PBXTargetDependency */,
 			);
 			name = "Pods-YHMapHelper_Example";
 			productName = Pods_YHMapHelper_Example;
@@ -274,12 +315,12 @@
 		};
 		DCA30993160A4B893B8DDFBAF8276FC8 /* YHMapHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2A0BCE7F5623F51968924F3E446955F /* Build configuration list for PBXNativeTarget "YHMapHelper" */;
+			buildConfigurationList = 0074BA2D57A8FB0DCB510D6A6FD65478 /* Build configuration list for PBXNativeTarget "YHMapHelper" */;
 			buildPhases = (
-				98F7B46D969A9843DB3F67F74F88DDEE /* Headers */,
-				0E802850BC10E9B5A167ADA7969ACA53 /* Sources */,
-				22540D87D5D5516DF027EF9040DB9C17 /* Frameworks */,
-				3888E65C1E5E11293EDA109020107047 /* Resources */,
+				F2D337EB19041BDC44C7BBC48C4F314B /* Headers */,
+				B0C3F73A0B48A11F651A1F7F5432BFB3 /* Sources */,
+				E7FA868E2B5F5EF7D00F8B33A85BA07E /* Frameworks */,
+				36916711F0B10DC30F1485D5992FBFEF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +343,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4E5BCD674968990C815BB9140FCE9D6C /* PBXTargetDependency */,
+				8E2CE30BBCA6E662F5958699EA0C9643 /* PBXTargetDependency */,
 			);
 			name = "Pods-YHMapHelper_Tests";
 			productName = Pods_YHMapHelper_Tests;
@@ -346,7 +387,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3888E65C1E5E11293EDA109020107047 /* Resources */ = {
+		36916711F0B10DC30F1485D5992FBFEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,15 +404,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E802850BC10E9B5A167ADA7969ACA53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7446DB308AEFCAC32D6E2A98A827793 /* ReplaceMe.m in Sources */,
-				509A4F1D9281F83EC81C9C5BE618F63E /* YHMapHelper-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		569578C8D1994FCCD55F03A97B11C211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,24 +420,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0C3F73A0B48A11F651A1F7F5432BFB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1809884617CEBDCEE25F95CE07F1B879 /* YHAbstractJumpAppItem.m in Sources */,
+				8A466CE29D2A4E0322E6BCD1595ED5DC /* YHLocationConverter.m in Sources */,
+				40946C2AD041442D0349249F98EC4B8E /* YHLocationHelper.m in Sources */,
+				3D8B8D6D4A438182DB79C775A30902C8 /* YHMapAppHelper.m in Sources */,
+				F1335A285B21F855BE375268C59D95CE /* YHMapAppItems.m in Sources */,
+				48B17982A2FF8A2F2313C76AF2B7A321 /* YHMapHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E5BCD674968990C815BB9140FCE9D6C /* PBXTargetDependency */ = {
+		8E2CE30BBCA6E662F5958699EA0C9643 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YHMapHelper_Example";
 			target = 97DF77A6A128F0AA4903D1727FBAC5FF /* Pods-YHMapHelper_Example */;
-			targetProxy = 47E50862949D0080F1CB876E689E69A7 /* PBXContainerItemProxy */;
+			targetProxy = 902DB96C4E82C06985B51BEC8822ED84 /* PBXContainerItemProxy */;
 		};
-		597E6622B2FE01A99752185EA6475F9D /* PBXTargetDependency */ = {
+		C628E1F46D37CE974DC71E67D2FC27CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YHMapHelper;
 			target = DCA30993160A4B893B8DDFBAF8276FC8 /* YHMapHelper */;
-			targetProxy = 05671390D40A834AE04D19C918E7EAB8 /* PBXContainerItemProxy */;
+			targetProxy = D6A6225E908606E718173822E52AF970 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4535B9C26EBB518BC86EA1B6F30C2F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE2C908DAC2C466BD69AA910703E820 /* YHMapHelper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YHMapHelper/YHMapHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YHMapHelper/YHMapHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YHMapHelper/YHMapHelper.modulemap";
+				PRODUCT_MODULE_NAME = YHMapHelper;
+				PRODUCT_NAME = YHMapHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5FD8C0E5BD8B641B4EC76A6AFDB6AEFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0454CC8B15E87B64B84F6760F4165916 /* Pods-YHMapHelper_Example.debug.xcconfig */;
@@ -568,6 +644,36 @@
 			};
 			name = Debug;
 		};
+		AB88E1A39C1589F71E427DE1CCAB46AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D422B4F20BBFD870A4D98A4FACA5416 /* YHMapHelper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YHMapHelper/YHMapHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YHMapHelper/YHMapHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YHMapHelper/YHMapHelper.modulemap";
+				PRODUCT_MODULE_NAME = YHMapHelper;
+				PRODUCT_NAME = YHMapHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CB8BD15A9740BC8924D775030DE2EAEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D437A19E52707F1E50E7096BF84C82F /* Pods-YHMapHelper_Example.release.xcconfig */;
@@ -595,38 +701,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CEFAB5B023E0C2BB5702B86D6A32024D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3357EF917C1229A1BD57DCF6BDC339AE /* YHMapHelper.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YHMapHelper/YHMapHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YHMapHelper/YHMapHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YHMapHelper/YHMapHelper.modulemap";
-				PRODUCT_MODULE_NAME = YHMapHelper;
-				PRODUCT_NAME = YHMapHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -700,54 +774,23 @@
 			};
 			name = Debug;
 		};
-		D911EC67CE9ADB58C6A7184D25B18DC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76F1FF55B96C9234435A67B0CBCAD1C8 /* YHMapHelper.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YHMapHelper/YHMapHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YHMapHelper/YHMapHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YHMapHelper/YHMapHelper.modulemap";
-				PRODUCT_MODULE_NAME = YHMapHelper;
-				PRODUCT_NAME = YHMapHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0074BA2D57A8FB0DCB510D6A6FD65478 /* Build configuration list for PBXNativeTarget "YHMapHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB88E1A39C1589F71E427DE1CCAB46AA /* Debug */,
+				4535B9C26EBB518BC86EA1B6F30C2F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2A0BCE7F5623F51968924F3E446955F /* Build configuration list for PBXNativeTarget "YHMapHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D911EC67CE9ADB58C6A7184D25B18DC6 /* Debug */,
-				CEFAB5B023E0C2BB5702B86D6A32024D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
