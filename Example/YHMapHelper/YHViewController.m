@@ -79,9 +79,9 @@
             
             NSDictionary *param = self.arguments;
             if ([param objectForKey:@"lat"] == nil) {
-                result(@"fail, lat is null!");
+                [self result:@"fail, lat is null!"];
             }else if ([param objectForKey:@"lng"] == nil) {
-                result(@"fail, lng is null!");
+                [self result:@"fail, lng is null!"];
             }
             CLLocationDegrees latitude = [[param objectForKey:@"lat"] doubleValue];
             CLLocationDegrees longitude = [[param objectForKey:@"lng"] doubleValue];
@@ -96,14 +96,14 @@
             UIViewController *rootVC = [[UIApplication sharedApplication] keyWindow].rootViewController;
             if (rootVC) {
                 [rootVC presentViewController:alert animated:YES completion:^{
-                    result(@"success");
+                    [self result:@"success"];
                 }];
             }else{
-                result(@"fail");
+                [self result:@"fail"];
             }
         }
         else{
-            result(@"fail, arguments is null!");
+            [self result:@"fail, arguments is null!"];
         }
     } else if ([@"locationCoordinate" isEqualToString:self.method]) {
         
@@ -134,7 +134,7 @@
     }
     CLLocationCoordinate2D coordinate= [[YHLocationHelper sharedHelper] currentCoordinateBySystem:type];
     NSString *coordinateJsonString = [NSString stringWithFormat:@"{'lat':'%f','lng':'%f'}",coordinate.latitude,coordinate.longitude];
-    result([NSString stringWithFormat:@"获取定位：%@",coordinateJsonString]);
+    [self result:[NSString stringWithFormat:@"获取定位：%@",coordinateJsonString]];
     
     //处理完成，清除缓存
     [self.awaitFlutterCalls removeObjectForKey:@"locationCoordinate"];
@@ -151,7 +151,7 @@
         }
     }
     //获取定位失败
-    result(@"获取定位失败");
+    [self result:@"获取定位失败"];
     //处理完成，清除缓存
     [self.awaitFlutterCalls removeObjectForKey:@"locationCoordinate"];
 }
