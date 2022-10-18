@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YHMapHelper_Example' do
+  pod 'YHMapHelper', :path => '../'
+
+  target 'YHMapHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
