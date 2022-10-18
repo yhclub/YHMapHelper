@@ -15,12 +15,12 @@
 /**
  * The method name.
  */
-@property(readonly, nonatomic) NSString* method;
+@property(strong,nonatomic) NSString* method;
 
 /**
  * The arguments.
  */
-@property(readonly, nonatomic, nullable) id arguments;
+@property(strong, nonatomic, nullable) id arguments;
 
 
 @property(nonatomic,strong)NSMutableDictionary *awaitFlutterCalls;
@@ -71,7 +71,13 @@
     }
 }
 
+
 - (void)testAction{
+    self.method = @"openMap";
+    self.arguments = @{@"address":@"易惠科技"};
+    [self openMapHelp];
+}
+- (void)openMapHelp{
     
     if ([@"openMap" isEqualToString:self.method]) {
         
