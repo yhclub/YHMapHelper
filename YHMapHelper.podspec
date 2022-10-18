@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liaojiangtu' => '42318168@qq.com' }
-  s.source           = { :git => 'https://github.com/liaojiangtu/YHMapHelper.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:XmYlzYhkj/YHMapHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
