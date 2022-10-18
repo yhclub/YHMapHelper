@@ -1,0 +1,6 @@
+framework module Pods_YHMapHelper_Example {
+  umbrella header "Pods-YHMapHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
