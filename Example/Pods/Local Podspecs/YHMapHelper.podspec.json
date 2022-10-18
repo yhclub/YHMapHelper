@@ -1,9 +1,9 @@
 {
   "name": "YHMapHelper",
   "version": "0.1.0",
-  "summary": "A short description of YHMapHelper.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liaojiangtu/YHMapHelper",
+  "summary": "A tool of Map.",
+  "description": "A tool of Map.",
+  "homepage": "https://github.com/XmYlzYhkj/YHMapHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "liaojiangtu": "42318168@qq.com"
   },
   "source": {
-    "git": "https://github.com/liaojiangtu/YHMapHelper.git",
+    "git": "https://github.com/XmYlzYhkj/YHMapHelper.git",
     "tag": "0.1.0"
   },
   "platforms": {
